@@ -5,13 +5,12 @@
 </template>
 
 <script lang="ts">
-export default {
-    name: 'hello',
-    data () {
-        return {
-            message: 'Welcome to Your Vue.js App Gareth'
-        }
-    }
+import Vue from 'vue';
+import Component from 'vue-class-component';
+
+@Component({})
+export default class Hello extends Vue {
+   message: string = "Welcome to Your Vue.js App Gareth";
 }
 </script>
 
