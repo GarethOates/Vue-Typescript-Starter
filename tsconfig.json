@@ -1,9 +1,9 @@
 {
-  "compilerOptions": {
+    "compilerOptions": {
     "lib": [
-      "dom",
-      "es5",
-      "es2015.promise"
+        "dom",
+        "es5",
+        "es2015.promise"
     ],
     "module": "es2015",
     "moduleResolution": "node",
@@ -12,5 +12,5 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true
-  }
+    }
 }
